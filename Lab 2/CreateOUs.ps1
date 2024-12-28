@@ -1,3 +1,4 @@
+# create organizational units
 New-ADOrganizationalUnit -Name CTU -path "dc=B2111933,dc=local"	
 New-ADOrganizationalUnit -Name TCNTT -path "OU=CTU,dc=B2111933,dc=local"	
 New-ADOrganizationalUnit -Name TBK -path "OU=CTU,dc=B2111933,dc=local"	
